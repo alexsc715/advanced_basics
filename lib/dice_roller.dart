@@ -1,3 +1,4 @@
+import 'package:basic_app/privacy_policy.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -26,7 +27,6 @@ class _DiceRollerState extends State<DiceRoller> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
           "assets/images/dice-$currentDiceRoll.png",
@@ -42,7 +42,25 @@ class _DiceRollerState extends State<DiceRoller> {
                 textStyle: const TextStyle(
                   fontSize: 28,
                 )),
-            child: const Text("Rolar Dado"))
+            child: const Text("Rolar Dado")),
+        TextButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const PrivacyPolicy(),
+              ),
+            );
+          },
+          child: Text(
+            "Política de Privacidade",
+            style: TextStyle(
+                color: Colors.amber[50],
+                fontSize: 18,
+                letterSpacing: 2,
+                decoration: TextDecoration.underline),
+          ),
+        ),
       ],
     );
   }
