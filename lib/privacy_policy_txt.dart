@@ -15,7 +15,10 @@ class PrivacyPolicyTxt extends StatelessWidget {
         child: Column(
           children: [
             Text("Política de Privacidade do aplicativo Dice Roller 1.0",
-                style: TextStyle(color: Colors.white)),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.w700,
+                )),
             SizedBox(height: 20),
             Text(
                 "Esta política de privacidade faz referência ao aplicativo Dice Roller, criado por alexscjava, está na loja Google Play e pode ser acessado pelo seguinte endereço:",
