@@ -1,6 +1,9 @@
 # basic_app
 
-A new Flutter project.
+Roll Dice App
+Este aplicativo é resultado de exercício do curso de Flutter e Dart que ainda nao concluí.
+
+A aplicação está publicada no link: https://play.google.com/store/apps/details?id=com.alexscjava.dice_roller
 
 ## Getting Started
 
