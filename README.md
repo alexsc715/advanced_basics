@@ -1,6 +1,8 @@
 # advanced_basics
 
-A new Flutter project.
+Quiz App
+
+Feito em Flutter e Dart, se trata de uma aplicação de quiz. 
 
 ## Getting Started
 
